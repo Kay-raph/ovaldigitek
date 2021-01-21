@@ -493,7 +493,7 @@ section {
   color: #111;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 5px;
 }
 
@@ -576,7 +576,7 @@ section {
 
 #about .about-container .title {
   color: #333;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 32px;
 }
 
@@ -611,11 +611,11 @@ section {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 3px solid black;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: red;
   font-size: 24px;
 }
 
@@ -647,7 +647,8 @@ section {
 #facts .counters span {
   font-size: 48px;
   display: block;
-  color: #2dc997;
+  color: red;
+  font-weight: bold;
 }
 
 #facts .counters p {
@@ -677,19 +678,16 @@ section {
 
 #services .icon {
   position: absolute;
-  top: -36px;
+  top: -45px;
   left: calc(50% - 36px);
   transition: 0.2s;
-  border-radius: 50%;
-  border: 6px solid #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  width: 72px;
-  height: 72px;
-  background: #2dc997;
+  width: 80px;
+  height: 80px;
 }
 
 #services .icon a {
@@ -703,11 +701,12 @@ section {
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #2dc997;
+  transform: scale(1.1);
+  transition: ease-in-out .3s;
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color: red;
 }
 
 #services .box:hover .icon a {
