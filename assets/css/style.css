@@ -781,10 +781,10 @@ section {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+/* #call-to-action .cta-btn:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
-}
+} */
 
 /* Portfolio Section
 --------------------------------*/
@@ -817,7 +817,7 @@ section {
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #2dc997;
+  background: yellowgreen;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -830,8 +830,11 @@ section {
 }
 
 #portfolio .portfolio-item img {
+  width: 100%;
+  height: auto;
   position: relative;
   top: 0;
+  margin: 10px;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -843,18 +846,18 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #2dc997;
-  padding: 15px 20px;
+  background: white;
+  padding: 5px 10px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #fff;
+  color: black;
   font-weight: 600;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
-  color: #fff;
+  color: black;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -864,7 +867,7 @@ section {
   right: 50px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: white;
+  color: yellow;
   transition: ease-in-out 0.3s;
 }
 
@@ -916,7 +919,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #2dc997 !important;
+  background-color: yellow !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -992,6 +995,7 @@ section {
 
 #team .member .pic img {
   max-width: 100%;
+  border-radius: 20px;
 }
 
 #team .member h4 {
@@ -1015,7 +1019,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #2dc997;
+  color: yellowgreen;
 }
 
 #team .member .social i {
@@ -1041,7 +1045,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: yellowgreen;
   float: left;
 }
 
@@ -1066,7 +1070,7 @@ section {
   background: #333;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 10px 0;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1075,7 +1079,7 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: yellow;
   color: #fff;
 }
 
@@ -1103,7 +1107,7 @@ section {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: yellowgreen;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1136,19 +1140,20 @@ section {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #2dc997;
+  background-color: yellowgreen;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #2dc997;
+  background: yellowgreen;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+  border-radius: 10px;
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #51d8ad;
+  background: yellow;
 }
 
 @-webkit-keyframes animate-loading {
