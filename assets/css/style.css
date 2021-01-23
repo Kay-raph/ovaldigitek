@@ -798,8 +798,8 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #f7f7f7;
-  padding: 80px 0;
+  background: #ffffff;
+  padding: 20px 0;
 }
 
 #portfolio #portfolio-flters {
@@ -840,10 +840,10 @@ section {
 
 #portfolio .portfolio-item img {
   width: 100%;
-  height: auto;
+  height: 200px;
   position: relative;
   top: 0;
-  margin: 10px;
+  margin: 5px;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -857,6 +857,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: white;
   padding: 5px 10px;
+  display: none;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
@@ -869,6 +870,7 @@ section {
   color: black;
   font-size: 14px;
   margin-bottom: 0;
+  display: none;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
@@ -999,13 +1001,13 @@ section {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 220px;
 }
 
 #team .member .pic img {
-  width: 100%;
+  max-width: 100%;
   border-radius: 20px;
-  height: 200px;
+  height: 220px;
 }
 
 #team .member h4 {
